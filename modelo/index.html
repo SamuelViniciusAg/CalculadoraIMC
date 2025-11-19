@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelo </title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <section class="container">
+
+        <h1> Tabela IMC </h1>
+
+        <div id="container-a">
+
+            <ol>
+                <li>Menos do que 18, 5 <b>abaixo do peso</b> </li>
+                <li>entre 18,5 e 24, 9 <b>peso normal</b></li>
+                <li>entre 25 e 29,9 <b>sobrepeso</b></li>
+                <li>entre 30 e 34,9 <b>obesidade grau1 </b></li>
+                <li>entre 35 e 39,9 <b>obesidade grau 2</b></li>
+                <li>mais do que 40 <b>obesidade grua 3</b></li>
+            </ol>
+        </div>
+
+
+        <form class="form">
+           
+
+            <label for="input-teste-1">Peso</label>
+            <input type="number"  class="peso" step="0.01">
+
+            <label for="input-teste-2">Altura</label>
+            <input type="number" id="altura" class="altura" step="0.01">
+
+            <button type="submit" class="btn">enviar</button>
+
+        </form>
+        <div class="resultado"></div>
+    </section>
+
+    
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
